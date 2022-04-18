@@ -96,7 +96,9 @@ a {
 }
 .body-modal-open {
   height: 100vh;
-  overflow-y: hidden;
+  position: fixed;
+  margin: 0;
+  /* overflow-y: hidden; */
 }
 /* media queries */
 @media (min-width: 800px) {
