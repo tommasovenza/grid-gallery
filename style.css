@@ -96,9 +96,11 @@ a {
 }
 .body-modal-open {
   height: 100vh;
-  position: fixed;
-  margin: 0;
-  /* overflow-y: hidden; */
+  touch-action: none;
+  -webkit-overflow-scrolling: none;
+  overflow-y: hidden;
+  /* Other browsers */
+  overscroll-behavior: none;
 }
 /* media queries */
 @media (min-width: 800px) {
